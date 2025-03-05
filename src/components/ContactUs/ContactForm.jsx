@@ -4,7 +4,7 @@ import { Cloudy, Fingerprint, GitBranch, Github, Youtube } from "lucide-react";
 
 export default function ContactForm() {
   return (
-    <section className="w-full max-w-5xl mx-auto shadow-2xl bg-white p-6 md:p-12 rounded-lg lg:absolute top-40 lg:-top-40 lg:left-1/2 lg:-translate-x-1/2">
+    <section className="w-full max-w-5xl mx-auto shadow-2xl bg-white p-6 md:p-12 rounded-lg lg:absolute top-44 lg:-top-44 lg:left-1/2 lg:-translate-x-1/2">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Section - Text & Contact Info */}
         <div>

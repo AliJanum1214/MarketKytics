@@ -63,7 +63,7 @@ export default function Navbar() {
           transition={{ duration: 0.4 }}
           className="md:hidden w-full bg-[#111] shadow-lg p-6 h-screen"
         >
-          <ul className="mt-20 space-y-4 text-white">
+          <ul className="mt-20 space-y-9 text-white">
             <li>
               <ContactBtn href="/blog" text={"Blog"} />
             </li>

@@ -26,7 +26,7 @@ export default function HeroSection({
       className={`py-16 px-6 sm:px-10 lg:px-20 flex flex-col ${textAlignment} space-y-5 sm:space-y-7 ${bgColor}`}
     >
       {/* Title */}
-      <h2 className="text-[30px] sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent stroke-text max-w-4xl sm:max-w-5xl">
+      <h2 className="text-[28px] sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-transparent stroke-text max-w-4xl sm:max-w-5xl">
         {title}
       </h2>
 

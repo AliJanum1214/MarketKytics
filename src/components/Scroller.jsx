@@ -27,7 +27,7 @@ export default function Scroller() {
 
   return (
     showScroller && (
-      <div className="fixed bottom-14 right-10">
+      <div className="fixed bottom-14 right-10 z-50">
         {/* Outer Circle */}
         <div className="relative w-14 h-14">
           {/* Background Circle */}

@@ -3,11 +3,10 @@ import React from "react";
 
 export default function Video() {
   return (
-    <section className="relative w-full h-[80vh] md:h-screen">
-      {/* Background Video */}
+    <section className="relative w-full min-h-[50vh] sm:min-h-[90vh] lg:min-h-screen [@media(max-width:400px)]:min-h-[60vh]">
       <div className="absolute inset-0 w-full h-full">
         <video
-          className="absolute inset-0 w-full h-full object-cover"
+          className="w-full h-full object-cover"
           autoPlay
           muted
           playsInline

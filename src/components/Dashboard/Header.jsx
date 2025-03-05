@@ -11,7 +11,7 @@ export default function Header() {
       <Video />
       {/* Overlay Content */}
       <div className="absolute inset-0 flex flex-col space-y-8 sm:space-y-12 sm:p-20 pl-10 pt-24">
-        <h1 className="text-white text-5xl sm:text-5xl font-bold sm:mt-14 mt-0">
+        <h1 className="text-white text-4xl sm:text-5xl font-bold sm:mt-14 mt-0">
           MARKETlytics
         </h1>
         <AnimationHeading
@@ -21,7 +21,7 @@ export default function Header() {
           word4={"Lead Generation"}
           intervalTime={2500}
         />
-        <h3 className="text-[20px] sm:text-[24px] font-black text-transparent stroke-text">
+        <h3 className="text-[18px] sm:text-[24px] font-black text-transparent stroke-text">
           Fueling Growth with Data, AI and Strategic Marketing.
         </h3>
 
