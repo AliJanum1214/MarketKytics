@@ -12,7 +12,10 @@ export default function ClientVideo() {
           playsInline
           loop
         >
-          <source src="./Client-Bg-Video.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dlorogzhe/video/upload/v1741175167/Client-Bg-Video_ib975b.mp4"
+            type="video/mp4"
+          />
           {/* <source
             src="https://drive.google.com/uc?export=download&id=17tn5ZFrlwYAAr8hPVsgpTfSkR-qi9SBT"
             type="video/mp4"

@@ -13,7 +13,10 @@ export default function Video() {
           playsInline
           loop
         >
-          <source src="/Dashboard-Video.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/dlorogzhe/video/upload/v1741175168/Dashboard-Video_rbqxwq.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
     </section>
