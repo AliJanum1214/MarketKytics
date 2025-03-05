@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-poppins), sans-serif !important;
+}
+
+.stroke-text {
+  position: relative;
+  color: white; /* Text color */
+  letter-spacing: 2px;
+}
+
+.videoContainer {
+  position: relative;
+  width: 560px;
+  height: 315px;
+  overflow: hidden;
+}
+
+/* Hide YouTube logo */
+.videoContainer iframe {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hide YouTube title and label on hover */
+.videoContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Transparent background */
+  z-index: 2;
+  pointer-events: none; /* Ensure clicks pass through to the video */
+}
